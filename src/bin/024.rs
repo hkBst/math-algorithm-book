@@ -12,5 +12,5 @@ fn main() {
         .iter()
         .map(|&(p, q)| (q as f32) / (p as f32))
         .sum::<f32>();
-    println!("{:.?}", result);
+    println!("{:?}", result);
 }
